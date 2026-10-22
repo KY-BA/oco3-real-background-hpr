@@ -1,0 +1,25 @@
+# Runtime outputs and private/local configuration
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+wandb/
+*.log
+runs/
+external_data/
+reproduction-assets/
+checkpoints/
+observations/
+*.h5
+*.hdf5
+*.keras
+*.nc
+*.nc4
+*.zip
+# Do NOT ignore data/: data/utils.py and selected background NPZs are required.
