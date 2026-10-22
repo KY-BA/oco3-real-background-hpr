@@ -1,0 +1,39 @@
+{
+  "tensorflow_version": "2.9.0",
+  "numpy_version": "1.24.4",
+  "gpus": [
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+  ],
+  "gpu_details": [
+    {
+      "device_name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "compute_capability": [
+        8,
+        9
+      ]
+    }
+  ],
+  "original_stored_prediction": 10.95028305053711,
+  "fresh_cpu_prediction": 10.973112106323242,
+  "scene": "oco3_LtCO2_220818_B10400Br_221010202607s.SUB.nc4",
+  "seed": 72,
+  "trials": [
+    {
+      "mode": "cpu",
+      "prediction": 10.973129272460938,
+      "minus_original": 0.022846221923828125,
+      "minus_fresh_CPU": 1.71661376953125e-05,
+      "prediction_CPU_normalized_input": 10.973129272460938,
+      "normalization_max_abs_delta": 0.0
+    },
+    {
+      "mode": "gpu_tf32",
+      "prediction": 10.99289321899414,
+      "minus_original": 0.04261016845703125,
+      "minus_fresh_CPU": 0.019781112670898438,
+      "prediction_CPU_normalized_input": 10.992077827453613,
+      "normalization_max_abs_delta": 5.960464477539063e-08
+    }
+  ],
+  "direct_saved_H5_load_error": "Exception encountered when calling layer \"hpr_spatial_center_maps\" (type Lambda).\n\nunknown opcode\n\nCall arguments received by layer \"hpr_spatial_center_maps\" (type Lambda):\n  \u2022 inputs=tf.Tensor(shape=(None, 32, 32, 3), dtype=float32)\n  \u2022 mask=None\n  \u2022 training=False"
+}

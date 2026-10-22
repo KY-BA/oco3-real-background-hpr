@@ -1,0 +1,82 @@
+{
+  "n": 165,
+  "mean_abs_delta": 0.0008935321461070667,
+  "median_abs_delta": 0.00030040740966796875,
+  "max_abs_delta": 0.022829055786132812,
+  "count_over_1e4": 130,
+  "count_over_1e3": 33,
+  "largest": [
+    {
+      "seed": 72,
+      "plant": "Colstrip",
+      "scene": "oco3_LtCO2_220818_B10400Br_221010202607s.SUB.nc4",
+      "stored": 10.95028305053711,
+      "fresh": 10.973112106323242,
+      "delta": 0.022829055786132812,
+      "absolute_delta": 0.022829055786132812
+    },
+    {
+      "seed": 72,
+      "plant": "Tuoketuo",
+      "scene": "oco3_LtCO2_230614_B10400Br_230810054140s.SUB.nc4",
+      "stored": 15.729793548583984,
+      "fresh": 15.74096393585205,
+      "delta": 0.011170387268066406,
+      "absolute_delta": 0.011170387268066406
+    },
+    {
+      "seed": 52,
+      "plant": "Belchatow",
+      "scene": "oco3_LtCO2_221013_B10400Br_221205203141s.SUB.nc4",
+      "stored": 15.076663970947266,
+      "fresh": 15.066951751708984,
+      "delta": -0.00971221923828125,
+      "absolute_delta": 0.00971221923828125
+    },
+    {
+      "seed": 52,
+      "plant": "Tuoketuo",
+      "scene": "oco3_LtCO2_220605_B10400Br_220929042003s.SUB.nc4",
+      "stored": 18.221668243408203,
+      "fresh": 18.229869842529297,
+      "delta": 0.00820159912109375,
+      "absolute_delta": 0.00820159912109375
+    },
+    {
+      "seed": 72,
+      "plant": "Conemaugh",
+      "scene": "oco3_LtCO2_200620_B10400Br_220318001710s.SUB.nc4",
+      "stored": 12.332695007324219,
+      "fresh": 12.324898719787598,
+      "delta": -0.007796287536621094,
+      "absolute_delta": 0.007796287536621094
+    },
+    {
+      "seed": 72,
+      "plant": "Tuoketuo",
+      "scene": "oco3_LtCO2_210626_B10400Br_220318011702s.SUB.nc4",
+      "stored": 28.661712646484375,
+      "fresh": 28.666166305541992,
+      "delta": 0.0044536590576171875,
+      "absolute_delta": 0.0044536590576171875
+    },
+    {
+      "seed": 82,
+      "plant": "Tuoketuo",
+      "scene": "oco3_LtCO2_220605_B10400Br_220929042003s.SUB.nc4",
+      "stored": 15.891412734985352,
+      "fresh": 15.895506858825684,
+      "delta": 0.004094123840332031,
+      "absolute_delta": 0.004094123840332031
+    },
+    {
+      "seed": 72,
+      "plant": "Parish",
+      "scene": "oco3_LtCO2_201031_B10400Br_220318003957s.SUB.nc4",
+      "stored": 26.720190048217773,
+      "fresh": 26.723535537719727,
+      "delta": 0.003345489501953125,
+      "absolute_delta": 0.003345489501953125
+    }
+  ]
+}

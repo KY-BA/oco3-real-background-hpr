@@ -1,0 +1,81 @@
+{
+  "core_hash_check": {
+    "main.py": "BYTE-IDENTICAL",
+    "model_training.py": "BYTE-IDENTICAL",
+    "Data.py": "BYTE-IDENTICAL",
+    "saver.py": "BYTE-IDENTICAL",
+    "data/utils.py": "BYTE-IDENTICAL",
+    "include/callbacks.py": "BYTE-IDENTICAL",
+    "include/generators.py": "BYTE-IDENTICAL",
+    "include/loss.py": "BYTE-IDENTICAL",
+    "include/optimisers.py": "BYTE-IDENTICAL",
+    "include/trainer.py": "BYTE-IDENTICAL",
+    "models/reg.py": "EXACTLY the disclosed unused SqueezeNet removal",
+    "models/preprocessing.py": "BYTE-IDENTICAL",
+    "models/my_essential_inversors.py": "BYTE-IDENTICAL",
+    "models/my_efficientnet.py": "BYTE-IDENTICAL",
+    "models/my_mobilenet.py": "BYTE-IDENTICAL",
+    "models/my_shufflenet.py": "BYTE-IDENTICAL",
+    "models/my_squeezenet.py": "EXCLUDED (unused architecture; disclosed)",
+    "models/seg.py": "BYTE-IDENTICAL",
+    "models/Unet_backboned.py": "BYTE-IDENTICAL",
+    "models/my_essential_Unet.py": "BYTE-IDENTICAL",
+    "tools/extract_sam_scene_from_daily_lite.py": "BYTE-IDENTICAL",
+    "tools/build_earth_balanced_v2_plus_alpha_absolute_h5.py": "BYTE-IDENTICAL",
+    "tools/add_uv_channels_to_mixed_h5.py": "BYTE-IDENTICAL",
+    "tools/evaluate_ch4_1_cnn_background_transfer.py": "BYTE-IDENTICAL",
+    "tools/evaluate_ch4_3_hpr_vs_cnn.py": "BYTE-IDENTICAL",
+    "tools/compare_puresim_vs_mixed_on_real_oco3.py": "BYTE-IDENTICAL",
+    "tools/infer_real_oco3_absolute.py": "BYTE-IDENTICAL",
+    "tools/infer_real_oco3_absolute_by_plant.py": "BYTE-IDENTICAL",
+    "tools/make6_bs64_seed_ensemble_report.py": "BYTE-IDENTICAL"
+  },
+  "local_imports_missing": [],
+  "data_cli_help": {
+    "tools/extract_sam_scene_from_daily_lite.py": "PASS",
+    "tools/build_earth_balanced_v2_plus_alpha_absolute_h5.py": "PASS",
+    "tools/add_uv_channels_to_mixed_h5.py": "PASS"
+  },
+  "training_executed": false,
+  "builder_manifest_read": {
+    "train": 9,
+    "valid": 2,
+    "valid_2": 1,
+    "extra_valid": 1
+  },
+  "stage_modified_by_checks": false,
+  "configuration_changed_fields": {
+    "pure_cnn": [
+      "data.path.directory",
+      "dir_res",
+      "exp_name"
+    ],
+    "mixed_cnn": [
+      "data.path.directory",
+      "dir_res",
+      "exp_name"
+    ],
+    "hpr": [
+      "data.path.directory",
+      "dir_res",
+      "exp_name"
+    ]
+  },
+  "main_cfg_job": {
+    "pure_cnn": {
+      "returncode": 0,
+      "configuration_resolved": true,
+      "exit_cleanup_warning": "Optional installed wandb raised Windows PermissionError while cleaning its temporary directories at exit."
+    },
+    "mixed_cnn": {
+      "returncode": 0,
+      "configuration_resolved": true,
+      "exit_cleanup_warning": "Optional installed wandb raised Windows PermissionError while cleaning its temporary directories at exit."
+    },
+    "hpr": {
+      "returncode": 0,
+      "configuration_resolved": true,
+      "exit_cleanup_warning": "Optional installed wandb raised Windows PermissionError while cleaning its temporary directories at exit."
+    }
+  }
+}

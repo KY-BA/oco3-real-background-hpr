@@ -1,0 +1,5 @@
+{
+  "python38_ast_files": 32,
+  "narrow_credential_signature_flags": [],
+  "scope": "Syntax check and selected known-token/private-key signatures, not an exhaustive security audit."
+}

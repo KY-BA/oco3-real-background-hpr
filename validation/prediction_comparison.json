@@ -1,0 +1,17 @@
+{
+  "pure_cnn": {
+    "rows": 165,
+    "max_absolute_scene_difference": 4.76837158203125e-06,
+    "mean_absolute_scene_difference": 9.5367431640625e-07
+  },
+  "mixed_cnn": {
+    "rows": 165,
+    "max_absolute_scene_difference": 9.059906005859375e-06,
+    "mean_absolute_scene_difference": 1.4594106963186553e-06
+  },
+  "hpr": {
+    "rows": 165,
+    "max_absolute_scene_difference": 0.022829055786132812,
+    "mean_absolute_scene_difference": 0.0008935321461070667
+  }
+}

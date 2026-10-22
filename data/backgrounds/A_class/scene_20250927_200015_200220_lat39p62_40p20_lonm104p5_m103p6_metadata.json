@@ -1,0 +1,27 @@
+{
+  "scene_name": "scene_20250927_200015_200220_lat39p62_40p20_lonm104p5_m103p6",
+  "input_file": "oco3_LtCO2_250927_B11077Ar_251021182533s.nc4",
+  "start_utc": "2025-09-27 20:00:15",
+  "end_utc": "2025-09-27 20:02:20",
+  "bbox_lon_min": -104.5,
+  "bbox_lon_max": -103.6,
+  "bbox_lat_min": 39.62,
+  "bbox_lat_max": 40.2,
+  "soundings_all_in_window": 1028,
+  "soundings_qf0_in_window": 910,
+  "center_lat": 39.92618179321289,
+  "center_lon": -104.07964324951172,
+  "time_min_utc": "2025-09-27T20:00:32.085013+00:00",
+  "time_max_utc": "2025-09-27T20:02:09.418020+00:00",
+  "valid_fraction": 0.7724609375,
+  "residual_std_ppm": 0.4468533802846543,
+  "center_bias_ppm": -0.0347778382130519,
+  "positive_tail_ratio": 0.012642225031605562,
+  "anisotropy_ratio": 1.213338373992195,
+  "judgement": "background_like",
+  "reasons": [
+    "weak center anomaly",
+    "limited positive tail",
+    "acceptable coverage"
+  ]
+}

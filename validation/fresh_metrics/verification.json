@@ -1,0 +1,101 @@
+{
+  "status": "DIFFERENT",
+  "n_prediction_rows": 495,
+  "n_scenes": 33,
+  "n_plants": 8,
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "checks": [
+    {
+      "model": "pure_cnn",
+      "metric": "MAE",
+      "actual": 10.140945590784153,
+      "expected": 10.140945487966139,
+      "passed": false
+    },
+    {
+      "model": "pure_cnn",
+      "metric": "MAPE_pct",
+      "actual": 49.542811036968175,
+      "expected": 49.542810131029526,
+      "passed": false
+    },
+    {
+      "model": "pure_cnn",
+      "metric": "Mean_bias",
+      "actual": -10.140945590784153,
+      "expected": -10.140945487966139,
+      "passed": false
+    },
+    {
+      "model": "mixed_cnn",
+      "metric": "MAE",
+      "actual": 5.799251245856285,
+      "expected": 5.799251775145531,
+      "passed": false
+    },
+    {
+      "model": "mixed_cnn",
+      "metric": "MAPE_pct",
+      "actual": 28.28333300672876,
+      "expected": 28.283337301041136,
+      "passed": false
+    },
+    {
+      "model": "mixed_cnn",
+      "metric": "Mean_bias",
+      "actual": -4.661830277641614,
+      "expected": -4.661830385724704,
+      "passed": false
+    },
+    {
+      "model": "hpr",
+      "metric": "MAE",
+      "actual": 4.722860653698444,
+      "expected": 4.722566926081975,
+      "passed": false
+    },
+    {
+      "model": "hpr",
+      "metric": "MAPE_pct",
+      "actual": 20.75877211178655,
+      "expected": 20.75667052803321,
+      "passed": false
+    },
+    {
+      "model": "hpr",
+      "metric": "Mean_bias",
+      "actual": -4.190701313316822,
+      "expected": -4.190668694575628,
+      "passed": false
+    },
+    {
+      "model": "post_hoc_plant_gate",
+      "metric": "MAE",
+      "actual": 4.484051380455494,
+      "expected": 4.484076948165893,
+      "passed": false
+    },
+    {
+      "model": "post_hoc_plant_gate",
+      "metric": "MAPE_pct",
+      "actual": 19.115296733543516,
+      "expected": 19.115246923765465,
+      "passed": false
+    },
+    {
+      "model": "post_hoc_plant_gate",
+      "metric": "Mean_bias",
+      "actual": -3.958568912645181,
+      "expected": -3.9586130015055336,
+      "passed": false
+    }
+  ],
+  "interpretation": "Agreement with annual emission references; not instantaneous ground truth.",
+  "scope": "Reaggregation of saved predictions, not rerun training or satellite inference."
+}
