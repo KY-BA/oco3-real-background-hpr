@@ -1,0 +1,3 @@
+_target_: include.trainer.Trainer
+batch_size: ${training.batch_size}
+max_epochs: ${training.max_epochs}

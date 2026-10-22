@@ -1,0 +1,10 @@
+dir_seg_models: None
+chan_0: None
+chan_1: None
+chan_2: None
+chan_3: None
+chan_4: None
+clouds_threshold: 0.5
+dir_clouds_array: None
+timedate: False
+field_name: xco2_mixed_absolute_uv

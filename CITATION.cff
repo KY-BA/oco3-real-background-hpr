@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the upstream paper/software listed in THIRD_PARTY_NOTICES.md."
+type: software
+title: "Code for Real-Background Mixed Training and Plume-Aware Representation for OCO-3 Power-Plant CO2 Emission Estimation"
+authors:
+  - family-names: Chen
+    given-names: Jiahao
+  - family-names: Deng
+    given-names: Ye
+  - family-names: Cheng
+    given-names: Guixue
+abstract: "Training implementation, fixed evaluation manifests, and saved predictions for the associated manuscript."

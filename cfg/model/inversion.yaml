@@ -1,0 +1,6 @@
+defaults:
+    - init: default
+
+type: inversion
+name: essential
+dropout_rate: 0.2

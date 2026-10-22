@@ -1,0 +1,71 @@
+{
+  "python": "3.8.20",
+  "numpy_actual_import": "1.24.4",
+  "package_metadata": [
+    {
+      "name": "h5py",
+      "version": "3.7.0"
+    },
+    {
+      "name": "hydra-core",
+      "version": "1.3.2"
+    },
+    {
+      "name": "icecream",
+      "version": "2.2.0"
+    },
+    {
+      "name": "joblib",
+      "version": "1.4.2"
+    },
+    {
+      "name": "keras",
+      "version": "2.9.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.7.3"
+    },
+    {
+      "name": "netCDF4",
+      "version": "1.6.5"
+    },
+    {
+      "name": "numpy",
+      "version": "1.24.3"
+    },
+    {
+      "name": "numpy",
+      "version": "1.24.4"
+    },
+    {
+      "name": "omegaconf",
+      "version": "2.3.0"
+    },
+    {
+      "name": "pandas",
+      "version": "2.0.3"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.3.2"
+    },
+    {
+      "name": "scipy",
+      "version": "1.10.1"
+    },
+    {
+      "name": "tensorflow-gpu",
+      "version": "2.9.0"
+    },
+    {
+      "name": "wandb",
+      "version": "0.12.2"
+    },
+    {
+      "name": "xarray",
+      "version": "2022.11.0"
+    }
+  ],
+  "scope": "Current environment inspected during release preparation; not a complete historical environment lock."
+}

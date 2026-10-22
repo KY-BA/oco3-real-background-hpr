@@ -1,0 +1,143 @@
+{
+  "paper": {
+    "doi": "10.5194/gmd-18-3607-2025",
+    "url": "https://gmd.copernicus.org/articles/18/3607/2025/"
+  },
+  "software_record": {
+    "doi": "10.5281/zenodo.14013176",
+    "url": "https://zenodo.org/records/14013176",
+    "api_url": "https://zenodo.org/api/records/14013176",
+    "version": "v1.0.2",
+    "creator": [
+      {
+        "name": "Joffrey Dumont Le Brazidec",
+        "affiliation": null
+      }
+    ],
+    "access_right": "open",
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  "archive": {
+    "bytes": 7531976,
+    "sha256": "e165daefe6a6d150023de236f52190dd6caa68c46edf22f53b39392fc6d4e8bb",
+    "md5": "ed639b693a82117a4f4d22a93f6d070a",
+    "expected_md5": "ed639b693a82117a4f4d22a93f6d070a",
+    "root_directory": "JoffreyDumontLeBrazidec-co2-oco3-inv-dl-bdf7f24",
+    "git_commit_from_zip_comment": "bdf7f24ff61e31283807891bfdbd2b534d7361e8",
+    "license_named_entries": [
+      "JoffreyDumontLeBrazidec-co2-oco3-inv-dl-bdf7f24/models/ext_segmentation_models/LICENSE"
+    ]
+  },
+  "source_comparison": [
+    {
+      "path": "Data.py",
+      "upstream_sha256": "febed355488f8d0763531da2c50800904380d21827894980c9b0202f0f91e747",
+      "local_sha256": "0b53f1832409f6a733b4ea12830339a28543f8a03f10c111432604cda8a7ece8",
+      "status": "modified"
+    },
+    {
+      "path": "include/callbacks.py",
+      "upstream_sha256": "7b89450ba36d7ebd0a881507df00b378eb853e2efafc7a0f58ea8ad6e783c497",
+      "local_sha256": "720f6aaf61223368ceae92aacc86fb4dda1a6078a3af8a4460915e25eb023abb",
+      "status": "modified"
+    },
+    {
+      "path": "include/generators.py",
+      "upstream_sha256": "aa4e6d03c3ba1eae421ec8142467e9dbfa1a623a69ebfc2f971c3c60a01ff577",
+      "local_sha256": "17eca8660f96a24620fef0011ac17f536c01da377782b4b891bf4c2fcdf6bda9",
+      "status": "modified"
+    },
+    {
+      "path": "include/loss.py",
+      "upstream_sha256": "c52ff4130e28739ef8a15911af064054c097f6548ff5c8d36c5c7981db5ff75b",
+      "local_sha256": "f94b5632e6087d9cc1bc86214b6be3b7967e83e02962ac876949409a467071f1",
+      "status": "modified"
+    },
+    {
+      "path": "include/optimisers.py",
+      "upstream_sha256": "ad8290248775da67b0035b6b08ed5f207002e063b9c53643e78425da1eb2978f",
+      "local_sha256": "ad8290248775da67b0035b6b08ed5f207002e063b9c53643e78425da1eb2978f",
+      "status": "identical"
+    },
+    {
+      "path": "include/trainer.py",
+      "upstream_sha256": "8d19a59923d028e0f9653b635f0273cab6eae316c8a03d076fdb2dd139b81478",
+      "local_sha256": "92ed909af53a46a6a5753b66decc8c27d1381f408a1d598fdf547fcbf57f5988",
+      "status": "modified"
+    },
+    {
+      "path": "main.py",
+      "upstream_sha256": "69d39d1972b2511bf6460cfe29bace56252c1524e2d2840e63c3439a922e6800",
+      "local_sha256": "ea0ca677806e94727804f42aafc51f005fe9cfadcd73630439908b9be7a52ac8",
+      "status": "modified"
+    },
+    {
+      "path": "matplotlib_functions.py",
+      "upstream_sha256": "c32d720271bb94681a975f275926a439f7ce16ff83303ab288bad4d957e056da",
+      "local_sha256": "c32d720271bb94681a975f275926a439f7ce16ff83303ab288bad4d957e056da",
+      "status": "identical"
+    },
+    {
+      "path": "model_eval.py",
+      "upstream_sha256": "44b33bc20351ffaf4835be2df52cabdc59fe71f21ecae3321b2dca8ef428d8e9",
+      "local_sha256": "8148accfb153f9c58877f357f8b1c90a26b64dbd70e3e54d49a083940c9faec9",
+      "status": "modified"
+    },
+    {
+      "path": "model_training.py",
+      "upstream_sha256": "ce0a349888e9eeb394342160d3b4855d3fc5f26ce14690f4c00722862ad73956",
+      "local_sha256": "bddb2c3444ab750c6f125beb322ada7c6e4fc659f205590f08015935a1115d5c",
+      "status": "modified"
+    },
+    {
+      "path": "models/ext_segmentation_models/LICENSE",
+      "upstream_sha256": "36f98f7fdea2a040333363c404dd78be4d09679193c2a7d2ea310d95e32a725d",
+      "local_sha256": "36f98f7fdea2a040333363c404dd78be4d09679193c2a7d2ea310d95e32a725d",
+      "status": "identical"
+    },
+    {
+      "path": "models/my_efficientnet.py",
+      "upstream_sha256": "f645e01623158e8037a35641ac0574748e5ee9c79d4d2541b461bcf36b6422eb",
+      "local_sha256": "f645e01623158e8037a35641ac0574748e5ee9c79d4d2541b461bcf36b6422eb",
+      "status": "identical"
+    },
+    {
+      "path": "models/my_essential_inversors.py",
+      "upstream_sha256": "374f4b65f6e63113b04dd178e1d71104e58e273f276f7242847a05fa6deb266d",
+      "local_sha256": "5ad644f819416a2a9f91e4965c93aff2ff78c0376b910bc0f186143926e22e66",
+      "status": "modified"
+    },
+    {
+      "path": "models/preprocessing.py",
+      "upstream_sha256": "2cee8a33624ab9e64bfa38781b624c8ae2ae94bb9d8ac8f9026b75ee8ef524c1",
+      "local_sha256": "36fa67e48033a0eaf8920302257451fe6388a9c2e09c4ea7640af884dd6f8bbb",
+      "status": "modified"
+    },
+    {
+      "path": "models/reg.py",
+      "upstream_sha256": "4c4cbebea174d268bd5eaf35220841ee3111dc2edf0e63970a5b021fa84a15de",
+      "local_sha256": "eade2a6ecdfa8ed655822c21e13defdcd4a7e83b19cf99283e81c9e622c382de",
+      "status": "modified"
+    },
+    {
+      "path": "oco3_utils.py",
+      "upstream_sha256": "96b2f9687e0c395261c89566ee7b82d5854e83f77b1083974a8a6f48d04208a0",
+      "local_sha256": "96b2f9687e0c395261c89566ee7b82d5854e83f77b1083974a8a6f48d04208a0",
+      "status": "identical"
+    },
+    {
+      "path": "README.md",
+      "upstream_sha256": "ac1cae79331c9302e9b36de0543fe37a4422d4b964879e534898f8f250922a96",
+      "local_sha256": "ac1cae79331c9302e9b36de0543fe37a4422d4b964879e534898f8f250922a96",
+      "status": "identical"
+    },
+    {
+      "path": "saver.py",
+      "upstream_sha256": "02a4ff79328b01afd26b2390063e268c7f3dbea89fecc2de86e7b4cb0bc2e61d",
+      "local_sha256": "02a4ff79328b01afd26b2390063e268c7f3dbea89fecc2de86e7b4cb0bc2e61d",
+      "status": "identical"
+    }
+  ]
+}

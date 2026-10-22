@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "source": "data_plus/earth_all/absolute_balanced_v2_plus_alpha_xco2uv/train.h5",
+  "source_sha256": "641370dc8b03db46c2430f9c5e75e74a15410eab4bc85243732c20abd2bdf071",
+  "source_bytes": 2062610053,
+  "field_name": "xco2_mixed_absolute_uv",
+  "source_shape": [
+    195465,
+    32,
+    32,
+    3
+  ],
+  "source_dtype": "float32",
+  "channels": [
+    "XCO2",
+    "u",
+    "v"
+  ],
+  "fill_values": [
+    417.5697021484375,
+    4.439929962158203,
+    0.2645605206489563
+  ],
+  "computation_dtype": "float32",
+  "algorithm": "np.nanmedian(np.array(train_h5[field][:], dtype=np.float32), axis=(0,1,2)); nonfinite median replaced by 0.0; output cast to float32",
+  "implementation": "Exact order-statistic equivalent: each channel collected in disk-backed float32 array, removing only NaNs; in-place partition of middle indices; float32 mean of the two middle values. No sampling or approximation.",
+  "non_nan_counts": [
+    162520716,
+    200156160,
+    200156160
+  ],
+  "origin": "Training subset only; not estimated from validation or observational evaluation scenes.",
+  "available_physical_memory_bytes_before": 2697539584,
+  "one_channel_conservative_memory_estimate_bytes": 4276240384,
+  "python_version": "3.8.20",
+  "numpy_version": "1.24.4",
+  "h5py_version": "3.7.0"
+}

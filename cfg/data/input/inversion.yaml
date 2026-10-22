@@ -1,0 +1,9 @@
+dir_seg_models: /cerea_raid/users/dumontj/dev/coco2/dl/res/models
+chan_0: xco2
+chan_1: no2
+chan_2: u_wind
+chan_3: v_wind
+chan_4: None
+clouds_threshold: 0.5
+dir_clouds_array: /libre/dumontj/coco2/dl-input/clouds
+timedate: False

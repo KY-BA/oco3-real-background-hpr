@@ -1,0 +1,3 @@
+_target_: models.reg.Reg_model_builder
+name: ${model.name}
+dropout_rate: ${model.dropout_rate}

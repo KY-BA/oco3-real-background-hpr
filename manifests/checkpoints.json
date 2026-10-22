@@ -1,0 +1,362 @@
+[
+  {
+    "model": "pure_cnn",
+    "seed": 42,
+    "original_run_name": "puresim_oco3_xco2uv_nocloud_essential_bs32_s42",
+    "asset_directory": "checkpoints/pure_cnn/seed_42",
+    "files": {
+      "w_best.h5": {
+        "sha256": "4e56ba370e0bf23a7101a23ecf1db9299cb8a50a77967f2e567cf56ceeca62ed",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "22b59c184b52da300ff32d74eef4e9924ee84e245db9437838f9096dc30a5709",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "6a46fbe109925ee31ff5b48146904640cf17c55571711859608e2dd77bcce89f",
+        "bytes": 2371
+      },
+      "training_log.csv": {
+        "sha256": "b26daa3474adea190369c04987f6d92611d5f3c568bd923e1721828671a0735e",
+        "bytes": 11510
+      }
+    }
+  },
+  {
+    "model": "pure_cnn",
+    "seed": 52,
+    "original_run_name": "puresim_oco3_xco2uv_nocloud_essential_bs32_s52",
+    "asset_directory": "checkpoints/pure_cnn/seed_52",
+    "files": {
+      "w_best.h5": {
+        "sha256": "2712cb9a7b29e871181eafb1d577d0d42ce0ea9f3697fa15a3fa8a4baddca90f",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "22b59c184b52da300ff32d74eef4e9924ee84e245db9437838f9096dc30a5709",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "e42edbb57a1a90397f90b53b709e19792e233bc3b0b514ea6ac15b0d11c819a4",
+        "bytes": 2371
+      },
+      "training_log.csv": {
+        "sha256": "8aee9e91ccc63c730ac6f3ff0623756ff3b93fdfe2f36a2d808a5e12ecbb38f4",
+        "bytes": 33387
+      }
+    }
+  },
+  {
+    "model": "pure_cnn",
+    "seed": 62,
+    "original_run_name": "puresim_oco3_xco2uv_nocloud_essential_bs32_s62",
+    "asset_directory": "checkpoints/pure_cnn/seed_62",
+    "files": {
+      "w_best.h5": {
+        "sha256": "8a90038f8cec5a3df7e103cce94f1a6895457be7b7fbc6adc397ee44b7d6deb4",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "22b59c184b52da300ff32d74eef4e9924ee84e245db9437838f9096dc30a5709",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "c2ce28fa9901b805515c8a9feba33a3f4b3ada483a11751b2967dff246fa6bb7",
+        "bytes": 2371
+      },
+      "training_log.csv": {
+        "sha256": "ed9224202e80f70e22ea285add08cfccacccd04011ee0e7294722a23f2ad471d",
+        "bytes": 36967
+      }
+    }
+  },
+  {
+    "model": "pure_cnn",
+    "seed": 72,
+    "original_run_name": "puresim_oco3_xco2uv_nocloud_essential_bs32_s72",
+    "asset_directory": "checkpoints/pure_cnn/seed_72",
+    "files": {
+      "w_best.h5": {
+        "sha256": "981e56d70aff4e5262d12103e54e5b336fdec32d5992de9739a18af3d9c04ebb",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "22b59c184b52da300ff32d74eef4e9924ee84e245db9437838f9096dc30a5709",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "bee6e3f484072b6239ff135a3f17e67da5a8bba6c1bce92484a071d57368e5d3",
+        "bytes": 2371
+      },
+      "training_log.csv": {
+        "sha256": "363f2b924032f0c75771f8f6b506b2df1e6d45b282732095ac85ba352a64b90b",
+        "bytes": 42070
+      }
+    }
+  },
+  {
+    "model": "pure_cnn",
+    "seed": 82,
+    "original_run_name": "puresim_oco3_xco2uv_nocloud_essential_bs32_s82",
+    "asset_directory": "checkpoints/pure_cnn/seed_82",
+    "files": {
+      "w_best.h5": {
+        "sha256": "a7e0580e6777370e8f88bef0059e750fb035d3c010e84dd69aa6fe351926ead0",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "22b59c184b52da300ff32d74eef4e9924ee84e245db9437838f9096dc30a5709",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "c3746d9058dbdc3fdbee62e189cbc1b7a8f6e17716f6955111b02cd840abb0c0",
+        "bytes": 2371
+      },
+      "training_log.csv": {
+        "sha256": "57573a6e41e9aca2022b339f880dc0462b28b939bf8994b4b2bee53a6e497107",
+        "bytes": 47904
+      }
+    }
+  },
+  {
+    "model": "mixed_cnn",
+    "seed": 42,
+    "original_run_name": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s42",
+    "asset_directory": "checkpoints/mixed_cnn/seed_42",
+    "files": {
+      "w_best.h5": {
+        "sha256": "dc15ad675ec0cf07e5d29b3c5e4a400b3e835590cfa761044f1627bf6dfd78cf",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "51600431887cf7d16564a5dff25881218467e39182929c2a64ce8f734be98ebc",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "af8b5fd8c43135718e2ed6569c9a80d195b4ad4f3129f393c5959df55c1507cb",
+        "bytes": 2190
+      },
+      "training_log.csv": {
+        "sha256": "845232e884e7bb9dfc2009c36a6d278bcfb00643bbc7ed239169e9d9c1b64f0a",
+        "bytes": 26345
+      }
+    }
+  },
+  {
+    "model": "mixed_cnn",
+    "seed": 52,
+    "original_run_name": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s52",
+    "asset_directory": "checkpoints/mixed_cnn/seed_52",
+    "files": {
+      "w_best.h5": {
+        "sha256": "414b2c29779dce10362e4d07900593bf3d86c4da990e48c7b169430237961279",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "51600431887cf7d16564a5dff25881218467e39182929c2a64ce8f734be98ebc",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "ccfa4e3be3e706d372215ca6536d03bc2280d91044d458d6de2b4e7a14d67bb5",
+        "bytes": 2190
+      },
+      "training_log.csv": {
+        "sha256": "b4c1fd13f563165713f8e0f43bdcea5ec0ab344af56db78fa06f082073ef71b2",
+        "bytes": 10202
+      }
+    }
+  },
+  {
+    "model": "mixed_cnn",
+    "seed": 62,
+    "original_run_name": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s62",
+    "asset_directory": "checkpoints/mixed_cnn/seed_62",
+    "files": {
+      "w_best.h5": {
+        "sha256": "4030586a060df45d576e787261a366ef121c87451fff1801db6a1fb8bb1fc243",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "51600431887cf7d16564a5dff25881218467e39182929c2a64ce8f734be98ebc",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "c11eaad80540cd0d14c84cb624904a267dec6bbf08eabba746de15f4696a35d5",
+        "bytes": 2190
+      },
+      "training_log.csv": {
+        "sha256": "93da15a595d8dbdf9081fe75405651bc71d1bc3a69c5711bdae8e2a3144d7959",
+        "bytes": 14604
+      }
+    }
+  },
+  {
+    "model": "mixed_cnn",
+    "seed": 72,
+    "original_run_name": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s72",
+    "asset_directory": "checkpoints/mixed_cnn/seed_72",
+    "files": {
+      "w_best.h5": {
+        "sha256": "b55f03f759227cfaaf7c3b5e9e0ba176c3b99c62c39143a7205d47ca3114d2b3",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "51600431887cf7d16564a5dff25881218467e39182929c2a64ce8f734be98ebc",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "3db72b5d82d8a9e353fe66960d025a4fc71209899a063b46229f22dbb4358796",
+        "bytes": 2190
+      },
+      "training_log.csv": {
+        "sha256": "5dee6d7e81daee4a51086f30fb058497de4bf519a0607eee1d9e88fd6fbaeb9c",
+        "bytes": 11971
+      }
+    }
+  },
+  {
+    "model": "mixed_cnn",
+    "seed": 82,
+    "original_run_name": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s82",
+    "asset_directory": "checkpoints/mixed_cnn/seed_82",
+    "files": {
+      "w_best.h5": {
+        "sha256": "efe87669eaf4c31ed431a2a5e51259255663c769dff1d91d68884faf26f7007d",
+        "bytes": 2216688
+      },
+      "norm_layer.keras": {
+        "sha256": "51600431887cf7d16564a5dff25881218467e39182929c2a64ce8f734be98ebc",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "ab7238ad7308b0151ffa58d0147fba0fe3aa9aec9ae6a46cfabe38fa4c669d90",
+        "bytes": 2190
+      },
+      "training_log.csv": {
+        "sha256": "91bf5e5e630300be011aaabfbdafd0b6411f716462f330a79ea415a73a3d4286",
+        "bytes": 13989
+      }
+    }
+  },
+  {
+    "model": "hpr",
+    "seed": 42,
+    "original_run_name": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s42",
+    "asset_directory": "checkpoints/hpr/seed_42",
+    "files": {
+      "w_best.h5": {
+        "sha256": "efeedddd7834f375c8e9a783aba6fa4ad26382b39dfd74e75ae38516c792e2e6",
+        "bytes": 5714592
+      },
+      "norm_layer.keras": {
+        "sha256": "b881a1757c8e7e034b8094035fb79d3a0f86f67f0a96ac53141cb91b28f4c586",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "6b1d5896234eb9477e6a9015482267f7a80e5c37f5012b19a3061a4cc5d2015e",
+        "bytes": 2563
+      },
+      "training_log.csv": {
+        "sha256": "387e4986df3b96f5e578c30de153a2a6d32f6d173ad7bad2527767f558a98b61",
+        "bytes": 7628
+      }
+    }
+  },
+  {
+    "model": "hpr",
+    "seed": 52,
+    "original_run_name": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s52",
+    "asset_directory": "checkpoints/hpr/seed_52",
+    "files": {
+      "w_best.h5": {
+        "sha256": "18652d5bd328793b111ca4a1ec76319db8c66633a264aa3be43c77fa23ba9863",
+        "bytes": 5714592
+      },
+      "norm_layer.keras": {
+        "sha256": "b881a1757c8e7e034b8094035fb79d3a0f86f67f0a96ac53141cb91b28f4c586",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "cffaa6596ca1334fab815f13347969950badbb4f22edfa87d0d3b66333d0f6ee",
+        "bytes": 2563
+      },
+      "training_log.csv": {
+        "sha256": "860067ce2b5069e5c741449f0498df9e281ef7c77266ae3750d050032141b5a4",
+        "bytes": 20211
+      }
+    }
+  },
+  {
+    "model": "hpr",
+    "seed": 62,
+    "original_run_name": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s62",
+    "asset_directory": "checkpoints/hpr/seed_62",
+    "files": {
+      "w_best.h5": {
+        "sha256": "aeeed7c136456dda10a1ea7ae9b64d7444781f41db473c57af8b8934b1e7df86",
+        "bytes": 5714592
+      },
+      "norm_layer.keras": {
+        "sha256": "b881a1757c8e7e034b8094035fb79d3a0f86f67f0a96ac53141cb91b28f4c586",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "9eba55eb3b5b013801422c1a94f0ed4b3c190a749a2b3c8a4913e321241c3cb9",
+        "bytes": 2563
+      },
+      "training_log.csv": {
+        "sha256": "58b19ab95255a8d9f067e65551d65845284a94ace9f03e79c5d3fca06392fe02",
+        "bytes": 8386
+      }
+    }
+  },
+  {
+    "model": "hpr",
+    "seed": 72,
+    "original_run_name": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s72",
+    "asset_directory": "checkpoints/hpr/seed_72",
+    "files": {
+      "w_best.h5": {
+        "sha256": "4002eb134d4da4033bc9979470393854237dc822efc085872a96ff6f8e5220f7",
+        "bytes": 5714592
+      },
+      "norm_layer.keras": {
+        "sha256": "b881a1757c8e7e034b8094035fb79d3a0f86f67f0a96ac53141cb91b28f4c586",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "20a18ed0e5f04db232606c38c21a0da9b5018bf27f6f4dd09058f52d49a2207d",
+        "bytes": 2563
+      },
+      "training_log.csv": {
+        "sha256": "3343615ad44b8a957104f729353064c6d9723aca8cdbc3069e1343ed8fbf368c",
+        "bytes": 53539
+      }
+    }
+  },
+  {
+    "model": "hpr",
+    "seed": 82,
+    "original_run_name": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s82",
+    "asset_directory": "checkpoints/hpr/seed_82",
+    "files": {
+      "w_best.h5": {
+        "sha256": "2905457274e87a58adc4c5ba680a024cd51c2c2e948c4357028df39c01af87de",
+        "bytes": 5714592
+      },
+      "norm_layer.keras": {
+        "sha256": "b881a1757c8e7e034b8094035fb79d3a0f86f67f0a96ac53141cb91b28f4c586",
+        "bytes": 12464
+      },
+      "config.yaml": {
+        "sha256": "20baabaaebf4f655ad88958f3a14774193a8702a5b47de1f9ee3455207009815",
+        "bytes": 2563
+      },
+      "training_log.csv": {
+        "sha256": "c1e2ee7a6caace8fbedda6989554ef1c041045431e88b849cde509a8bdc3e66d",
+        "bytes": 9624
+      }
+    }
+  }
+]

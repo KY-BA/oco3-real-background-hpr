@@ -1,0 +1,9 @@
+learning_rate_monitor:
+    __target__: True
+    monitor: val_loss
+    factor: 0.5
+    patience: 20
+    min_delta: 5E-3
+    min_lr: 5E-5
+    cooldown: 0
+    verbose: 0

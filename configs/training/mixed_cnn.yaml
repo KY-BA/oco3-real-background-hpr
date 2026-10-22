@@ -1,0 +1,84 @@
+data:
+  init:
+    _target_: Data.Data_mixed_train
+    path_train_ds: ${data.path.directory}/${data.path.train.nc}
+    path_valid_ds: ${data.path.directory}/${data.path.valid.nc}
+    path_valid_2_ds: ${data.path.directory}/${data.path.valid_2.nc}
+    path_extra_valid_ds: ${data.path.directory}/${data.path.extra_valid.nc}
+  input:
+    dir_seg_models: None
+    chan_0: None
+    chan_1: None
+    chan_2: None
+    chan_3: None
+    chan_4: None
+    clouds_threshold: 0.5
+    dir_clouds_array: None
+    timedate: false
+    field_name: xco2_mixed_absolute_uv
+  output:
+    N_emissions: 1
+  path:
+    directory: ${oc.env:OCO3_DATA_DIR,external_data}
+    train:
+      name: mixed_bg_Belchatow
+      nc: train.h5
+    valid:
+      name: mixed_bg_Belchatow
+      nc: valid.h5
+    valid_2:
+      name: mixed_bg_Belchatow
+      nc: valid_2.h5
+    extra_valid:
+      name: mixed_bg_Belchatow
+      nc: extra_valid.h5
+dir_res: ${oc.env:OCO3_OUTPUT_DIR,runs}
+exp_name: paper_mixed_cnn_s${seed}
+seed: 42
+sweep: false
+model:
+  init:
+    _target_: models.reg.Reg_model_builder
+    name: ${model.name}
+    dropout_rate: ${model.dropout_rate}
+  type: inversion
+  name: essential
+  dropout_rate: 0.2
+training:
+  init:
+    _target_: include.trainer.Trainer
+    batch_size: 32
+    max_epochs: ${training.max_epochs}
+  batch_size: 32
+  init_lr: 0.0005
+  max_epochs: 500
+  init_weights: random
+  optimiser: adam
+  loss_func: MeanAbsoluteError
+augmentations:
+  _target_: include.generators.PrecomputedDataGen
+  shuffle: true
+  batch_size: ${training.batch_size}
+  scaling_method: precomputed
+callbacks:
+  model_checkpoint:
+    __target__: true
+  learning_rate_monitor:
+    __target__: true
+    monitor: val_loss
+    factor: 0.5
+    patience: 20
+    min_delta: 0.005
+    min_lr: 5.0e-05
+    cooldown: 0
+    verbose: 0
+  early_stopping:
+    __target__: true
+    monitor: val_loss
+    min_delta: 0.001
+    patience: 60
+    verbose: 1
+    mode: auto
+    baseline: null
+    restore_best_weights: true
+  wandb: false

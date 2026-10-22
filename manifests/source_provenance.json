@@ -1,0 +1,466 @@
+[
+  {
+    "release_path": "main.py",
+    "original_project_path": "main.py",
+    "sha256": "ea0ca677806e94727804f42aafc51f005fe9cfadcd73630439908b9be7a52ac8",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "model_training.py",
+    "original_project_path": "model_training.py",
+    "sha256": "bddb2c3444ab750c6f125beb322ada7c6e4fc659f205590f08015935a1115d5c",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "Data.py",
+    "original_project_path": "Data.py",
+    "sha256": "0b53f1832409f6a733b4ea12830339a28543f8a03f10c111432604cda8a7ece8",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "saver.py",
+    "original_project_path": "saver.py",
+    "sha256": "02a4ff79328b01afd26b2390063e268c7f3dbea89fecc2de86e7b4cb0bc2e61d",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/utils.py",
+    "original_project_path": "data/utils.py",
+    "sha256": "686faa95dd92b75b8f60a02926756484c96198988428d79208d973bcfd448035",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "include/callbacks.py",
+    "original_project_path": "include/callbacks.py",
+    "sha256": "720f6aaf61223368ceae92aacc86fb4dda1a6078a3af8a4460915e25eb023abb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "include/generators.py",
+    "original_project_path": "include/generators.py",
+    "sha256": "17eca8660f96a24620fef0011ac17f536c01da377782b4b891bf4c2fcdf6bda9",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "include/loss.py",
+    "original_project_path": "include/loss.py",
+    "sha256": "f94b5632e6087d9cc1bc86214b6be3b7967e83e02962ac876949409a467071f1",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "include/optimisers.py",
+    "original_project_path": "include/optimisers.py",
+    "sha256": "ad8290248775da67b0035b6b08ed5f207002e063b9c53643e78425da1eb2978f",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "include/trainer.py",
+    "original_project_path": "include/trainer.py",
+    "sha256": "92ed909af53a46a6a5753b66decc8c27d1381f408a1d598fdf547fcbf57f5988",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/reg.py",
+    "original_project_path": "models/reg.py",
+    "sha256": "eade2a6ecdfa8ed655822c21e13defdcd4a7e83b19cf99283e81c9e622c382de",
+    "operation": "Remove unused SqueezeNet import; its non-paper branch now raises an explicit error. CNN/HPR branches unchanged.",
+    "release_sha256": "dccd4be87d84c2ab3f91099be0edd21f58c34484f0277c2ee9db0a03b4bc9f8d"
+  },
+  {
+    "release_path": "models/preprocessing.py",
+    "original_project_path": "models/preprocessing.py",
+    "sha256": "36fa67e48033a0eaf8920302257451fe6388a9c2e09c4ea7640af884dd6f8bbb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/my_essential_inversors.py",
+    "original_project_path": "models/my_essential_inversors.py",
+    "sha256": "5ad644f819416a2a9f91e4965c93aff2ff78c0376b910bc0f186143926e22e66",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/my_efficientnet.py",
+    "original_project_path": "models/my_efficientnet.py",
+    "sha256": "f645e01623158e8037a35641ac0574748e5ee9c79d4d2541b461bcf36b6422eb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/my_mobilenet.py",
+    "original_project_path": "models/my_mobilenet.py",
+    "sha256": "4ba32c321479e6a45fa6c7221e37a4f62da0c54ea867e54aa6fb29c3620f8019",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/my_shufflenet.py",
+    "original_project_path": "models/my_shufflenet.py",
+    "sha256": "30208003a22e1906fd12a579968a5e183a89690172817915df6e9ef7fa1ab393",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/seg.py",
+    "original_project_path": "models/seg.py",
+    "sha256": "3fd767fc39ef53ef14dc6a3374acb7d364d5a7cb77564aa826f8e622a98da6cb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/Unet_backboned.py",
+    "original_project_path": "models/Unet_backboned.py",
+    "sha256": "8c04959025cadbb02ded63fa079577c0cc366d955778a544c3eaf2ac3b03109a",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "models/my_essential_Unet.py",
+    "original_project_path": "models/my_essential_Unet.py",
+    "sha256": "689faa3a5f9e517b4e15d14d1e00f3b81e3216b25b3f0f98aca31ebc1241801f",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/extract_sam_scene_from_daily_lite.py",
+    "original_project_path": "tools/extract_sam_scene_from_daily_lite.py",
+    "sha256": "47c266f74fcf4216af3d4a44a0d1269587b27a3cf1bf9d19110c3acd49dc2f30",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/build_earth_balanced_v2_plus_alpha_absolute_h5.py",
+    "original_project_path": "tools/build_earth_balanced_v2_plus_alpha_absolute_h5.py",
+    "sha256": "eef305f5f2512bb3a33eef2accb435670a5bc431b3814be74ad1c3340b0c746d",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/add_uv_channels_to_mixed_h5.py",
+    "original_project_path": "tools/add_uv_channels_to_mixed_h5.py",
+    "sha256": "5fa6c8e12a05019ddf54a47222ac04f1853f7584a9b56e72a08565dc2b213fcb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/evaluate_ch4_1_cnn_background_transfer.py",
+    "original_project_path": "tools/evaluate_ch4_1_cnn_background_transfer.py",
+    "sha256": "49262644ac3e4b473dc3e8c0e8a1134e41181b59681d0a2a3e55c0787b199429",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/evaluate_ch4_3_hpr_vs_cnn.py",
+    "original_project_path": "tools/evaluate_ch4_3_hpr_vs_cnn.py",
+    "sha256": "b6d5d63561a1dfbfbbf156d59c00a663a2dc9494d63bdb4b5df66569cc31c321",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/compare_puresim_vs_mixed_on_real_oco3.py",
+    "original_project_path": "tools/compare_puresim_vs_mixed_on_real_oco3.py",
+    "sha256": "e91bc6ed82921a0d02720609dc36b3a84784f01e511000665d54ba5878efc3da",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/infer_real_oco3_absolute.py",
+    "original_project_path": "tools/infer_real_oco3_absolute.py",
+    "sha256": "44ec2b7b18ae2eddefe058cff1f9273fd1e565b8b2a4e4fbb0f6308766c335f5",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/infer_real_oco3_absolute_by_plant.py",
+    "original_project_path": "tools/infer_real_oco3_absolute_by_plant.py",
+    "sha256": "6c15afe4e300b14adafacdc5b43257ccfc1a80b6f364b83fb2c5580daa27204c",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "tools/make6_bs64_seed_ensemble_report.py",
+    "original_project_path": "tools/make6_bs64_seed_ensemble_report.py",
+    "sha256": "02a225eab603b7b46dcfa605257fb3d918ec6a7c30e24c29557e9d678a1ec0b5",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/config.yaml",
+    "original_project_path": "cfg/config.yaml",
+    "sha256": "c14fb319911ab81c767257b40e2988bf793ab95dda7435013ed8906c52adbad2",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/hydra/default.yaml",
+    "original_project_path": "cfg/hydra/default.yaml",
+    "sha256": "bd64bd70c20ee898dae98fb1780fbd305468744e71060d60e244a9667ef62495",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/model/inversion.yaml",
+    "original_project_path": "cfg/model/inversion.yaml",
+    "sha256": "6d7d2195a998e991d3730e0eb7d9ea1dd0ac377dfa8ec7e052e645083b9f7b33",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/model/init/default.yaml",
+    "original_project_path": "cfg/model/init/default.yaml",
+    "sha256": "4092bac93afe7e13f3e6fc1d7b9b38fafa7aeef9639d447617c8903acd5a6a19",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/training/default.yaml",
+    "original_project_path": "cfg/training/default.yaml",
+    "sha256": "c85b9c27ad29368ff63775c688b9aeb3a7a0e1447d2c716c38b40e487d8a2431",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/training/init/default.yaml",
+    "original_project_path": "cfg/training/init/default.yaml",
+    "sha256": "3e6d3729b22df397a3ff4ded94c969029daa8cc89980017ec4ef4c8fc3248695",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/default.yaml",
+    "original_project_path": "cfg/data/default.yaml",
+    "sha256": "53027efa2f5862c668b007db074d210b4c9993c625c643cbc7c64e6825308464",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/mixed.yaml",
+    "original_project_path": "cfg/data/mixed.yaml",
+    "sha256": "1ab4ed18bf3ad167bbf2fa058205e9c7bcbaa5d8ff4d0f6d82032de75314e44b",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/earth_all_absolute_balanced_v2_plus_alpha_xco2uv.yaml",
+    "original_project_path": "cfg/data/earth_all_absolute_balanced_v2_plus_alpha_xco2uv.yaml",
+    "sha256": "6bb2e3342cf099490957123b5892c87a4fe7021a089ebdefe1ed385afbf424cb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/init/default.yaml",
+    "original_project_path": "cfg/data/init/default.yaml",
+    "sha256": "77d8e87a3b582ee765a566c537037fd7bfa1634877acd82ebf885ad95a34154a",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/init/mixed.yaml",
+    "original_project_path": "cfg/data/init/mixed.yaml",
+    "sha256": "088b1a5160960136bbf4b15f1d783a69b87549df75abec9c7ce861126fee7ea7",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/input/inversion.yaml",
+    "original_project_path": "cfg/data/input/inversion.yaml",
+    "sha256": "798044ff4e160bb28d1c6039b6ac1fb3666591009ef34756baa519333e749b6d",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/input/mixed.yaml",
+    "original_project_path": "cfg/data/input/mixed.yaml",
+    "sha256": "3c6ae75bed658f799d9155943df56f1e907e167dad36cd309526aae6197c23aa",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/data/output/inversion.yaml",
+    "original_project_path": "cfg/data/output/inversion.yaml",
+    "sha256": "faff9af144157db69ba0e1c499273df7b2245b8b3991cde8de034e7bc3e97336",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/augmentations/inversion.yaml",
+    "original_project_path": "cfg/augmentations/inversion.yaml",
+    "sha256": "0e0864ec17e89ab75989391b0c2876e3856406e71aa4bb8f56c0bdac834c4b21",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/augmentations/precomputed.yaml",
+    "original_project_path": "cfg/augmentations/precomputed.yaml",
+    "sha256": "f667dd08a5579463445f741f905d56d85f4c9a227d243eaba5280e72ac1c1f09",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/callbacks/model_checkpoint.yaml",
+    "original_project_path": "cfg/callbacks/model_checkpoint.yaml",
+    "sha256": "bfcb15f58fade05ceb1ee8c8ac1482d51ce323ccad7e68bb4dfc1115d5c9ddbd",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/callbacks/learning_rate_monitor.yaml",
+    "original_project_path": "cfg/callbacks/learning_rate_monitor.yaml",
+    "sha256": "66167d3ee2b83bb0a2d0051ed3e3aec4751aeff3f6142a9fdaace24812125c1f",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/callbacks/early_stopping.yaml",
+    "original_project_path": "cfg/callbacks/early_stopping.yaml",
+    "sha256": "322515838d8e2fec6357137139f3389f812ef8091857cf7c0931cd616eae38b4",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "cfg/callbacks/wandb.yaml",
+    "original_project_path": "cfg/callbacks/wandb.yaml",
+    "sha256": "108f857c08359d35515f1846394a16fb139ebdc3cc7b44dd2ae85aa8f37fffb3",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "results/reference/seed_predictions.csv",
+    "source_role": "formal CNN/HPR prediction export",
+    "source_filename": "seed_level_predictions.csv",
+    "sha256": "5d4d8d44d38d48d7b721148c796d4fb9e1eb9f244debc00ffe8974350e7e53f6",
+    "operation": "merge; canonicalize plant names and column names; retain numeric strings; omit machine-specific model_dir"
+  },
+  {
+    "release_path": "results/reference/seed_predictions.csv",
+    "source_role": "formal CNN/HPR prediction export",
+    "source_filename": "all_seed_predictions.csv",
+    "sha256": "e7c81dd2ccf4c7af9cb96f09daa4810dc591a1b16f947daa38e3f1b0bc5cf098",
+    "operation": "merge; canonicalize plant names and column names; retain numeric strings; omit machine-specific model_dir"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210124_142615_142820_lat13p2_13p78_lon2p35_3p25_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20210124_142615_142820_lat13p2_13p78_lon2p35_3p25_scene.npz",
+    "sha256": "4f2cc6e9b19c6e0b2c7c0ac836104dff98603d4f9a6b6d27769dec70961c43d5",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210124_142615_142820_lat13p2_13p78_lon2p35_3p25_metadata.json",
+    "sha256": "999e397cfe5304f987a58e0d04be321259d93fb646f910b7968aca41498852f9",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20211130_055145_055345_lat25p9_26p48_lon105p9_106p8_scene.npz",
+    "original_project_path": "data_plus/earth_bg/B_class/scene_20211130_055145_055345_lat25p9_26p48_lon105p9_106p8_scene.npz",
+    "sha256": "08a0b32459311ef24f54c26939582715a1e8737aee896a76a216c750cbcc3a49",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20211130_055145_055345_lat25p9_26p48_lon105p9_106p8_metadata.json",
+    "sha256": "4c022fd88009eefac4f3e6906fd5de3056a8a811c02f52f4af90cca7beedb7b9",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20250927_200015_200220_lat39p62_40p20_lonm104p5_m103p6_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20250927_200015_200220_lat39p62_40p20_lonm104p5_m103p6_scene.npz",
+    "sha256": "051516113eb65be9ec3c4ef14507fc85bf5ca6e8bb321bbc5323c3aff5fcf1b3",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20250927_200015_200220_lat39p62_40p20_lonm104p5_m103p6_metadata.json",
+    "sha256": "d62f105aa487335c205ca09d415f8cc56bf9e6ffc22af56febb0199519756ccb",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20210421_074525_074725_lat48p30_48p88_lon1p9_2p8_scene.npz",
+    "original_project_path": "data_plus/earth_bg/B_class/scene_20210421_074525_074725_lat48p30_48p88_lon1p9_2p8_scene.npz",
+    "sha256": "2d3d3cf04cdcacd1cbc2c2faa04b30fb765dda28eb50b640ece24d3afff99265",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20210421_074525_074725_lat48p30_48p88_lon1p9_2p8_metadata.json",
+    "sha256": "4341666b989ccef314eaca8dd1da31acea83910c769b14a778af7eb6117b8775",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20200814_204505_204710_lat44p22_44p80_lonm89p8_m88p9_scene.npz",
+    "original_project_path": "data_plus/earth_bg/B_class/scene_20200814_204505_204710_lat44p22_44p80_lonm89p8_m88p9_scene.npz",
+    "sha256": "2f659e5cb53f94c1d42587ba535a34fa1b7257abb4cf332c1ef3444305188474",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20200814_204505_204710_lat44p22_44p80_lonm89p8_m88p9_metadata.json",
+    "sha256": "f195cda49dd1cd3e9a862a419bdd9a6cf1f88c5b4423bd4a3947e4176c446934",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20220725_010105_010310_lat43p22_43p80_lonm120p2_m119p3_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20220725_010105_010310_lat43p22_43p80_lonm120p2_m119p3_scene.npz",
+    "sha256": "288a071c8513e2532396da32492d303bba4b4746063ab52353582e190239b47c",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20220725_010105_010310_lat43p22_43p80_lonm120p2_m119p3_metadata.json",
+    "sha256": "898cc6c0280825a5c9ee7ef00a91799fa34b612b74da875d89d59891a8ca676c",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20231006_192245_192450_lat43p20_43p78_lonm120p3_m119p4_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20231006_192245_192450_lat43p20_43p78_lonm120p3_m119p4_scene.npz",
+    "sha256": "60dee5fcfad4a79ebe5fe55ef2a99d7f08281300b6a3b1177dba7635ba20619f",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20231006_192245_192450_lat43p20_43p78_lonm120p3_m119p4_metadata.json",
+    "sha256": "9f92eca47175971ff77a47de925543dbd3f01b0d995d47b10f31c76ff2d85677",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20221020_033705_033910_lat43p75_44p33_lon124p3_125p2_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20221020_033705_033910_lat43p75_44p33_lon124p3_125p2_scene.npz",
+    "sha256": "d7b166e0d1ed42fa5b76bc3bcc5890b6ada7e6434096195f6a453a7c5a450c06",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20221020_033705_033910_lat43p75_44p33_lon124p3_125p2_metadata.json",
+    "sha256": "0b1c77981816179416b7459d06bdf6b858cade0f37d67d8949f52e33071db84d",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210420_210835_211040_lat38p25_38p83_lonm122p0_m121p1_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20210420_210835_211040_lat38p25_38p83_lonm122p0_m121p1_scene.npz",
+    "sha256": "bd902f538aab2cfaf3f4686e850cb31435190125d4028be8bf3692ccd25ef744",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210420_210835_211040_lat38p25_38p83_lonm122p0_m121p1_metadata.json",
+    "sha256": "dcc4dd4b3608e9a6af23d3e39d89459f611410730fefc66a3a784557f4ae6fa8",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20221017_195555_195800_lat39p22_39p80_lonm97p3_m96p4_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20221017_195555_195800_lat39p22_39p80_lonm97p3_m96p4_scene.npz",
+    "sha256": "cad4c795de55ad2d78e49b0bf1e9e50940bd7555ea28dd3bd63068add80c3e5e",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20221017_195555_195800_lat39p22_39p80_lonm97p3_m96p4_metadata.json",
+    "sha256": "ebfc0ba5ffd9fde419f4144c70c9f98d220504bcc147a14e823b5595661b1442",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20210614_105355_105600_lat50p1_50p68_lon5_5p9_scene.npz",
+    "original_project_path": "data_plus/earth_bg/B_class/scene_20210614_105355_105600_lat50p1_50p68_lon5_5p9_scene.npz",
+    "sha256": "6375378455d56525065bfe5e3f64eb91b461f207571a9516913d2b02e9ca4b56",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/B_class/scene_20210614_105355_105600_lat50p1_50p68_lon5_5p9_metadata.json",
+    "sha256": "ccf085fc61190b191ad629969c0997601082c041fdab12bdfd3352bb2c884603",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210204_182755_183000_lat36p42_37p00_lonm98p4_m97p5_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20210204_182755_183000_lat36p42_37p00_lonm98p4_m97p5_scene.npz",
+    "sha256": "58a8119b6918c518408eb87cf44bd9a13faf478d159725dbf5c5746bbe5e25b6",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20210204_182755_183000_lat36p42_37p00_lonm98p4_m97p5_metadata.json",
+    "sha256": "ca63bee919dc278857968d3128edf83818244773960f31fd54666d033326fc4e",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20251212_041005_041210_lat45p75_46p33_lon125p6_126p5_scene.npz",
+    "original_project_path": "data_plus/earth_bg/A_class/scene_20251212_041005_041210_lat45p75_46p33_lon125p6_126p5_scene.npz",
+    "sha256": "e1e09ec8e9065cc0d80b028bf3336ece0c67f052a92db4c26c482c5a6b8eb898",
+    "operation": "byte-identical copy"
+  },
+  {
+    "release_path": "data/backgrounds/A_class/scene_20251212_041005_041210_lat45p75_46p33_lon125p6_126p5_metadata.json",
+    "sha256": "bf18e686a58b3f403be00afdbfe547a1859924db7c0e257fc2384945f5e37c80",
+    "operation": "metadata: replace local input_file absolute path with filename; retain diagnostic values"
+  },
+  {
+    "release_path": "configs/training/pure_cnn.yaml",
+    "source_run": "puresim_oco3_xco2uv_nocloud_essential_bs32_s42",
+    "original_config_sha256": "6a46fbe109925ee31ff5b48146904640cf17c55571711859608e2dd77bcce89f",
+    "operation": "YAML serialization and data.path.directory / dir_res / exp_name portability substitutions only"
+  },
+  {
+    "release_path": "configs/training/mixed_cnn.yaml",
+    "source_run": "earth_all_absolute_balanced_v2_plus_alpha_xco2uv_essential_bs32_s42",
+    "original_config_sha256": "af8b5fd8c43135718e2ed6569c9a80d195b4ad4f3129f393c5959df55c1507cb",
+    "operation": "YAML serialization and data.path.directory / dir_res / exp_name portability substitutions only"
+  },
+  {
+    "release_path": "configs/training/hpr.yaml",
+    "source_run": "mixed_xco2uv_hpr_5e4_do020_bs32_crosscontrol_s42",
+    "original_config_sha256": "6b1d5896234eb9477e6a9015482267f7a80e5c37f5012b19a3061a4cc5d2015e",
+    "operation": "YAML serialization and data.path.directory / dir_res / exp_name portability substitutions only"
+  }
+]

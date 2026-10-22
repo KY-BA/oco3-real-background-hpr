@@ -1,0 +1,20 @@
+defaults:
+    - init: mixed
+    - input: mixed
+    - output: inversion
+
+
+path:
+    directory: ${hydra:runtime.cwd}/data_plus/mixed_bg_Belchatow
+    train:
+        name: mixed_bg_Belchatow
+        nc: train.h5
+    valid:
+        name: mixed_bg_Belchatow
+        nc: valid.h5
+    valid_2:
+        name: mixed_bg_Belchatow
+        nc: valid_2.h5
+    extra_valid:
+        name: mixed_bg_Belchatow
+        nc: extra_valid.h5

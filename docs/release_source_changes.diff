@@ -1,0 +1,19 @@
+--- original/models/reg.py
++++ release/models/reg.py
+@@ -50,7 +50,6 @@
+ )
+ from models.my_mobilenet import MobileNet
+ from models.my_shufflenet import ShuffleNet
+-from models.my_squeezenet import SqueezeNet
+ from models.preprocessing import (
+     CloudsLayer,
+     ConditionalNoiseLayer,
+@@ -103,7 +102,7 @@
+     elif name == "essential":
+         core_model = essential_regressor(input_shape, dropout_rate)
+     elif name == "squeezenet":
+-        core_model = SqueezeNet(input_shape, dropout_rate, compression=0.4)
++        raise ValueError("SqueezeNet is not included in this manuscript release.")
+     elif name == "mobilenet":
+         core_model = MobileNet(input_shape, scaling_coeff=0.4)
+     elif name == "shufflenet":

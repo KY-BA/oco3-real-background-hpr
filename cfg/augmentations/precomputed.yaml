@@ -1,0 +1,4 @@
+_target_: include.generators.PrecomputedDataGen
+shuffle: True
+batch_size: ${training.batch_size}
+scaling_method: precomputed

@@ -1,0 +1,16 @@
+defaults:
+    - data: default
+    - _self_
+    - model: inversion 
+    - training: default
+    - augmentations: ${model}
+    - callbacks:
+        - model_checkpoint
+        - learning_rate_monitor
+        - early_stopping
+        - wandb
+    - hydra: default
+dir_res: /libre/dumontj/coco2/weights/new/
+exp_name: ${now:%Y-%m-%d}_${now:%H-%M-%S}
+seed: 42
+sweep: false

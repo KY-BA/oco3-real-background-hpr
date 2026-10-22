@@ -1,0 +1,20 @@
+defaults:
+    - init: mixed
+    - input: mixed
+    - output: inversion
+
+
+path:
+    directory: ${hydra:runtime.cwd}/data_plus/earth_all/absolute_balanced_v2_plus_alpha_xco2uv
+    train:
+        name: earth_all_absolute_balanced_v2_plus_alpha_xco2uv
+        nc: train.h5
+    valid:
+        name: earth_all_absolute_balanced_v2_plus_alpha_xco2uv
+        nc: valid.h5
+    valid_2:
+        name: earth_all_absolute_balanced_v2_plus_alpha_xco2uv
+        nc: valid_2.h5
+    extra_valid:
+        name: earth_all_absolute_balanced_v2_plus_alpha_xco2uv
+        nc: extra_valid.h5

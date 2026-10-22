@@ -1,0 +1,35 @@
+{
+  "manuscript_title": "Real-Background Mixed Training and Plume-Aware Representation for OCO-3 Power-Plant CO2 Emission Estimation",
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "models": [
+    "pure_cnn",
+    "mixed_cnn",
+    "hpr"
+  ],
+  "annual_emission_references_mt_co2_yr": {
+    "Belchatow": 37.6,
+    "Tuoketuo": 29.5,
+    "Conemaugh": 16.9,
+    "Labadie": 15.0,
+    "Colstrip": 13.6,
+    "Parish": 13.2,
+    "Cumberland": 12.4,
+    "Intermountain": 5.0
+  },
+  "aggregation": "Arithmetic mean across seeds per scene, then arithmetic mean across retained scenes per plant; errors equally averaged over eight plants.",
+  "seed_variability": "Evaluate each seed separately after plant aggregation; report mean and sample SD (ddof=1).",
+  "post_hoc_gate": {
+    "low": 10,
+    "high": 16,
+    "level": "plant",
+    "rule": "Use HPR if HPR plant prediction <10 or >16; otherwise mixed CNN.",
+    "status": "post hoc exploration on the same benchmark"
+  },
+  "reference_interpretation": "Annual emission references are not overpass-time instantaneous ground truth."
+}

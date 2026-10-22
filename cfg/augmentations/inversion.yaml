@@ -1,0 +1,11 @@
+_target_: include.generators.InvDataGen
+shuffle: True
+xco2_plume_scaling_min: 0.33
+xco2_plume_scaling_max: 2.25
+no2_plume_scaling_min: 0.75
+no2_plume_scaling_max: 2
+xco2_emiss_min: 0
+xco2_emiss_max: 45
+scaling_method: beta_distribution_mapping
+batch_size: ${training.batch_size}
+
